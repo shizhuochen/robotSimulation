@@ -518,11 +518,16 @@ namespace Attempt_7
                     randomAdd2 = randomFirstY;
                 }
                 this.trackArray[j] = new Vector2((float)((Math.Cos(i) * 10) + randomAdd1), (float)((Math.Sin(i) * 10) + randomAdd2));
-
                 this.verts1[j] = new VertexPositionColor(new Vector3(trackArray[j].X,trackArray[j].Y, 0), Color.WhiteSmoke); // 1st inside line
-                this.verts1[j + 37] = new VertexPositionColor(new Vector3((float)((Math.Cos(i) * 15) + randomAdd1), (float)((Math.Sin(i) * 14) + randomAdd2), 0), Color.White); // 1st outside line
-                this.verts1[j + (37 * 2)] = new VertexPositionColor(new Vector3((float)((Math.Cos(i) * 10.2f) + randomAdd1), (float)((Math.Sin(i) * 10.2f) + randomAdd2), 0), Color.White); // 2nd inside line -- make it thicker
-                this.verts1[j + (37 * 3)] = new VertexPositionColor(new Vector3((float)((Math.Cos(i) * 15.2f) + randomAdd1), (float)((Math.Sin(i) * 14.2f) + randomAdd2), 0), Color.White); // 2nd outside line -- make it thicker
+
+                this.trackArray[j + 37] = new Vector2((float)((Math.Cos(i) * 15) + randomAdd1), (float)((Math.Sin(i) * 14) + randomAdd2));
+                this.verts1[j + 37] = new VertexPositionColor(new Vector3(trackArray[j+37].X,trackArray[j+37].Y, 0), Color.White); // 1st outside line
+
+                this.trackArray[j + (37 * 2)] = new Vector2((float)((Math.Cos(i) * 10.2f) + randomAdd1), (float)((Math.Sin(i) * 10.2f) + randomAdd2)); 
+                this.verts1[j + (37 * 2)] = new VertexPositionColor(new Vector3(trackArray[j+ (37 * 2)].X,trackArray[j+(37 *2)].Y, 0), Color.White); // 2nd inside line -- make it thicker
+
+                this.trackArray[j + (37 * 3)] = new Vector2((float)((Math.Cos(i) * 15.2f) + randomAdd1), (float)((Math.Sin(i) * 14.2f) + randomAdd2));
+                this.verts1[j + (37 * 3)] = new VertexPositionColor(new Vector3(trackArray[j +(37 *3)].X,trackArray[j+ (37 *3)].Y, 0), Color.White); // 2nd outside line -- make it thicker
 
                 j++;
             }
