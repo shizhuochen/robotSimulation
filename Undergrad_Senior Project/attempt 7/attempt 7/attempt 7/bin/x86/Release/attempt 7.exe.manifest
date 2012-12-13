@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
-  <asmv1:assemblyIdentity version="2.1.0.1" name="attempt 7.exe" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity version="2.1.0.1" name="Attempt 7.exe" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <description asmv2:iconFile="Game.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="attempt 7" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
-    <commandLine file="attempt 7.exe" parameters="" />
+    <assemblyIdentity name="Attempt 7" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Attempt 7.exe" parameters="" />
   </entryPoint>
   <trustInfo>
     <security>
@@ -93,18 +93,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="attempt 7.exe" size="32768">
-      <assemblyIdentity name="attempt 7" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Attempt 7.exe" size="56832">
+      <assemblyIdentity name="Attempt 7" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-<<<<<<< HEAD
-        <dsig:DigestValue>XFRGJG+iO0kZJaWM4Q12mlPp2OE=</dsig:DigestValue>
-=======
-        <dsig:DigestValue>QIM5iYtAXe+roKrVtB4WaJ/glYE=</dsig:DigestValue>
->>>>>>> 7e8124f7f5034b4138038f34b4b9f7cfac471ea4
+        <dsig:DigestValue>gQ/w5dN0lDJjzujQnuSVLURXDJs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
