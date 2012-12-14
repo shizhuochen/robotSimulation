@@ -151,6 +151,11 @@ namespace Attempt_7
         /// </summary>
         public int coureLinesPointsPerCircle { get; set; }
 
+        /// <summary>
+        ///
+        /// </summary>
+        public string errorToShow { get; set; }
+
         // Robot Parameters
         public Vector3 robotPosition { get; set; }
         public Vector3 robotDirection { get; set; }
@@ -194,15 +199,15 @@ namespace Attempt_7
 
             // or the second method that just takes the smaller of the two, so that there will be even scaling
             //this.scaleFactorScreenSizeToWindow = new Vector2((float)0.78125, (float)0.78125);
-               
 
+            this.errorToShow = "NONE";
 
             this.trackRobot = false;
             this.timePressedKey = 0;
             currentHoughMode = 1;
             this.frameDrawCount = 0;
             this.UpdateSquareDimForDrawing = 3;
-            this.UpdateSquareDimForAnalysis = 3;
+            this.UpdateSquareDimForAnalysis = 1;
             this.AccumLength = 600;
             this.AccumLengthOld = 810;
             this.ThetaIncrement = 4;
@@ -222,7 +227,7 @@ namespace Attempt_7
             // 
             robotPosition = new Vector3(0, 10.5f, 0);
             robotDirection = Vector3.UnitY;
-            robotSpeed = 0.20f;
+            robotSpeed = 0.12f;
             //distanceToCameraTarget = 1.8f;
             //cameraHeight = 1;
             robotDistanceToCameraTarget = 1.8f * 2;

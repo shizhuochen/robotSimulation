@@ -306,7 +306,7 @@ namespace Attempt_7
                 // Draw the world from the perspective of each camera, 
                 this.grassTurf.DrawGrass(camera);
                 this.courseLines.DrawCouseLines(camera);
-                this.mainRobot.DrawRobot(camera);
+                //this.mainRobot.DrawRobot(camera);
                 this.mainRobot.imageAnalysisRobotCamera.drawAnalysis.DrawImageAnalysisResults(camera);
 
 
@@ -403,11 +403,14 @@ namespace Attempt_7
 
 
 
-
+               // if (File.Exists(@"C:\Users\ZSHI\Desktop\Anthony\test.txt"))
                 if (File.Exists("test.txt"))
                 {
                     //this.config.testString = File.ReadAllText("test.txt");
+
+                    //System.IO.StreamReader file = new System.IO.StreamReader(@"C:\Users\ZSHI\Desktop\Anthony\test.txt");
                     System.IO.StreamReader file = new System.IO.StreamReader("test.txt");
+
 
                     // First line
                     if ((line = file.ReadLine()) != null)
@@ -427,11 +430,11 @@ namespace Attempt_7
                     else
                         ExitWithMessage("Could not read 3 parameter of input file text.txt");
 
-                    // Fourth Line
-                    if ((line = file.ReadLine()) != null)
-                        this.config.UpdateSquareDimForAnalysis = (short)Convert.ToInt32(line);
-                    else
-                        ExitWithMessage("Could not read 4 parameter of input file text.txt");
+                    //// Fourth Line
+                    //if ((line = file.ReadLine()) != null)
+                    //    this.config.UpdateSquareDimForAnalysis = (short)Convert.ToInt32(line);
+                    //else
+                    //    ExitWithMessage("Could not read 4 parameter of input file text.txt");
 
 
 
@@ -465,7 +468,7 @@ namespace Attempt_7
             //writer.Write(totalTime.TotalMilliseconds);
 
             // Where to text file
-            System.IO.File.WriteAllText("results.txt", totalTime.TotalMilliseconds.ToString());
+            System.IO.File.WriteAllText(@"C:\Users\ZSHI\Desktop\Anthony\results.txt", totalTime.TotalMilliseconds.ToString());
             Exit();
         }
 
@@ -479,7 +482,7 @@ namespace Attempt_7
         //    BinaryWriter writer = new BinaryWriter(File.Open(fileName, FileMode.Create));
         //    writer.Write(message);
 
-            System.IO.File.WriteAllText("results.txt", message.ToString());
+            System.IO.File.WriteAllText(@"C:\Users\ZSHI\Desktop\Anthony\results.txt", message.ToString());
             Exit();
         }
 

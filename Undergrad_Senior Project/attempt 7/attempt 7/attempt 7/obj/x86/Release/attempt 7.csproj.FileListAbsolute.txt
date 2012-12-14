@@ -6,15 +6,15 @@ C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 
 C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\bin\x86\Release\Content\flashlight.xnb
 C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\bin\x86\Release\Content\Arial.xnb
 C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\bin\x86\Release\Content\ArialLarge.xnb
-C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\bin\x86\Release\Attempt 7.exe.manifest
-C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\bin\x86\Release\Attempt 7.application
-C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\bin\x86\Release\Attempt 7.exe
-C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\bin\x86\Release\Attempt 7.pdb
+C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\bin\x86\Release\Attempt7.exe.manifest
+C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\bin\x86\Release\Attempt7.application
+C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\bin\x86\Release\Attempt7.exe
+C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\bin\x86\Release\Attempt7.pdb
 C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\obj\x86\Release\ResolveAssemblyReference.cache
 C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\obj\x86\Release\Attempt 7.TrustInfo.xml
-C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\obj\x86\Release\Attempt 7.exe.manifest
-C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\obj\x86\Release\Attempt 7.application
-C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\obj\x86\Release\Attempt 7.exe
-C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\obj\x86\Release\Attempt 7.pdb
-C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\bin\x86\Release\Attempt 7.xml
+C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\obj\x86\Release\Attempt7.TrustInfo.xml
+C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\obj\x86\Release\Attempt7.exe.manifest
+C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\obj\x86\Release\Attempt7.application
+C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\obj\x86\Release\Attempt7.exe
+C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\obj\x86\Release\Attempt7.pdb
+C:\Users\ZSHI\Documents\GitHub\robotSimulation\Undergrad_Senior Project\attempt 7\attempt 7\attempt 7\bin\x86\Release\Attempt7.xml
